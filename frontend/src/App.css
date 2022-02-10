@@ -4,6 +4,15 @@
   font-family: 'Roboto', sans-serif;
 }
 
+:root {
+  --orange: #f78b00;
+  --blue-dark: #00285f;
+  --white: #fff;
+  --black: #000;
+  --gray-dark: #585858;
+  --gray-light: #ededed;
+}
+
 a,
 a:hover {
   text-decoration: none;

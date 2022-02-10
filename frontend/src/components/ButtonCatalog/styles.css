@@ -1,0 +1,34 @@
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 28px 40px;
+  margin-top: 30px;
+}
+
+.button-container button {
+  border-radius: 5px;
+  background-color: #00285f;
+  width: 174px;
+  height: 40px;
+  align-items: center;
+  margin-left: 21px;
+}
+
+.btn h6 {
+  color: var(--white);
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}

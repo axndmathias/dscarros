@@ -1,0 +1,143 @@
+/*container principal*/
+.home-container {
+  font-size: 22px;
+  padding: 20px 10px;
+  text-align: center;
+  background-color: var(--gray-light);
+}
+
+/*container do banner*/
+.home-banner {
+  background-color: var(--blue-dark);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/*container do texto*/
+.home-banner-text {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-banner-text h1 {
+  font-weight: 700;
+  color: var(--white);
+  font-size: 22px;
+  text-align: center;
+  padding: 0 12px 0 12px;
+}
+
+.home-banner-text p {
+  font-size: 14px;
+  font-weight: 400px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0 20px 0 20px;
+  color: var(--white);
+  line-height: 18px;
+}
+
+/*container da imagem*/
+.home-banner-image {
+  padding: 60px 28px 40px 28px;
+}
+
+.home-banner-image svg {
+  width: 100%;
+  height: auto;
+}
+
+/*container do botao*/
+.home-button-container p {
+  margin-top: 10px;
+  padding: 0 10px 0 10px;
+  color: var(--gray-dark);
+  text-align: center;
+  font-size: 17px;
+  line-height: 16px;
+}
+
+@media (min-width: 576px) {
+  .home-container {
+    padding: 35px 20px;
+  }
+
+  .home-banner-text h1 {
+    font-size: 36px;
+  }
+
+  .home-banner-text p {
+    font-size: 18px;
+    padding: 0 48.8px 0 48.8px;
+  }
+
+  .home-banner-image {
+    padding: 30px 10px 20px 10px;
+  }
+
+  .home-banner-image svg {
+    width: 340px;
+    height: auto;
+  }
+
+  .home-button-container p {
+    padding: 0 0 0 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-banner-image {
+    padding: 60px 10px 35px 10px;
+  }
+
+  .home-banner-text p {
+    font-size: 18px;
+    padding: 0 160px 0 160px;
+    margin-top: 2px;
+    margin-bottom: 35px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-banner-image {
+    padding: 60px 10px 35px 10px;
+  }
+
+  .home-banner-image svg {
+    width: 380px;
+    height: auto;
+  }
+
+  .home-banner-text p {
+    font-size: 18px;
+    padding: 0 250px 0 250px;
+    margin-top: 2px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 50px 60px 50px;
+  }
+
+  .home-banner-text {
+    display: flex;
+    align-content: center;
+    margin-bottom: 0;
+    margin: 50px 10px 0px 10px;
+  }
+
+  .home-banner-text p {
+    width: 390px;
+    padding: 0 0px 0 0px;
+    margin: 0;
+  }
+}
