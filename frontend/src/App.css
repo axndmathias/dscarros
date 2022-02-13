@@ -11,8 +11,12 @@
   --black: #000;
   --gray-dark: #585858;
   --gray-light: #ededed;
+  --gray-text: #a7a7a7;
 }
 
+body {
+  color: var(--gray-light);
+}
 a,
 a:hover {
   text-decoration: none;
