@@ -1,0 +1,15 @@
+.btn-container {
+  width: 100%;
+  height: 40px;
+}
+
+.btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.btn h6 {
+  font-size: 14px;
+  text-transform: uppercase;
+}

@@ -1,7 +1,15 @@
-/*container principal*/
 .catalog-container {
-  font-size: 22px;
   padding: 20px 10px;
-  text-align: center;
-  background-color: var(--white);
+}
+
+@media (min-width: 576px) {
+  .catalog-container {
+    padding: 30px 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .catalog-container {
+    padding: 30px 150px;
+  }
 }

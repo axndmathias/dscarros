@@ -2,7 +2,7 @@ import './styles.css';
 
 const SearchCar = () => {
   return (
-    <div className="search-card">
+    <div className="base-card search-card">
       <div className="search-card-input">
         <input type="text" placeholder="Digite sua busca" />
       </div>
