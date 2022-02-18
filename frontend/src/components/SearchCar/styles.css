@@ -52,3 +52,15 @@
     border-radius: 0 5px 5px 0;
   }
 }
+
+@media (min-width: 992px) {
+  .search-card {
+    padding: 35px 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .search-card {
+    padding: 35px 100px;
+  }
+}

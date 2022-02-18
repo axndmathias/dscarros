@@ -1,10 +1,4 @@
 /*container principal*/
-.home-container {
-  font-size: 22px;
-  padding: 20px 10px;
-  text-align: center;
-  background-color: var(--gray-light);
-}
 
 /*container do banner*/
 .home-banner {
@@ -51,15 +45,16 @@
 }
 
 /*container do botao*/
-.home-button-container p {
+/* .home-button-container p {
   margin-top: 10px;
   padding: 0 10px 0 10px;
   color: var(--gray-dark);
   text-align: center;
   font-size: 17px;
   line-height: 16px;
-}
+} */
 
+/* 
 @media (min-width: 576px) {
   .home-container {
     padding: 35px 20px;
@@ -117,27 +112,15 @@
     margin-top: 2px;
     margin-bottom: 60px;
   }
+} */
+@media (min-width: 768px) {
+  .home-container {
+    padding: 30px 20px;
+  }
 }
 
 @media (min-width: 1200px) {
-  .home-banner {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px 50px 60px 50px;
-  }
-
-  .home-banner-text {
-    display: flex;
-    align-content: center;
-    margin-bottom: 0;
-    margin: 50px 10px 0px 10px;
-  }
-
-  .home-banner-text p {
-    width: 390px;
-    padding: 0 0px 0 0px;
-    margin: 0;
+  .home-container {
+    padding: 30px 140px;
   }
 }

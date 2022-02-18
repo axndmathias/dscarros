@@ -2,15 +2,18 @@ import Navbar from 'components/Navbar';
 import { ReactComponent as CarBanner } from 'assets/images/car-banner.svg';
 import './styles.css';
 import ButtonCatalog from 'components/ButtonCatalog';
+import BannerCar from 'components/BannerCar';
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="home-container">
-        <div className="home-banner">
+      <div className="base-container home-container">
+        <BannerCar />
+        <ButtonCatalog />
+        {/* <div className="home-banner">
           <div className="home-banner-text">
-            <h1>O carro perfeito para você</h1>
+            <h1></h1>
             <p>
               Conheça nossos carros e dê mais um passo na realização do seu
               sonho
@@ -22,7 +25,7 @@ const Home = () => {
         </div>
         <div className="home-button-container">
           <ButtonCatalog />
-        </div>
+        </div> */}
       </div>
     </>
   );

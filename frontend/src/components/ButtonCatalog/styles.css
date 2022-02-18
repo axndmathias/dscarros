@@ -1,20 +1,16 @@
 .button-container {
+  margin-top: 20px;
+  padding: 30px 20px 20px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--white);
-  border-radius: 10px;
-  padding: 28px 40px;
-  margin-top: 30px;
+  align-items: center;
 }
 
 .button-container button {
   border-radius: 5px;
-  background-color: #00285f;
   width: 174px;
   height: 40px;
-  align-items: center;
-  margin-left: 21px;
 }
 
 .btn h6 {
@@ -24,11 +20,26 @@
   text-transform: uppercase;
 }
 
+.button-container-text p {
+  height: 40px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--gray-dark);
+  padding: 8px;
+  margin: 0;
+}
+
 @media (min-width: 576px) {
   .button-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 40px;
+    padding: 45px;
+    margin-top: 30px;
+  }
+
+  .button-container-text p {
+    padding-left: 18px;
   }
 }

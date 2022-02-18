@@ -12,8 +12,8 @@ const ProductCard = () => {
       <div className="card-text">
         <h6>Audi Supra TT</h6>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
-          assumenda, possimus deserunt commodi dolores eos
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
+          nisi
         </p>
       </div>
       <ButtonBuy />

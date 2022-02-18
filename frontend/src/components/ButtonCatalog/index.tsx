@@ -2,7 +2,7 @@ import './styles.css';
 
 const ButtonCatalog = () => {
   return (
-    <div className="button-container">
+    <div className="base-card button-container">
       <button className="btn btn-secondary">
         <h6>VER CATÁLAGO</h6>
       </button>
